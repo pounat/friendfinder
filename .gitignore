@@ -3,3 +3,5 @@ node_modules
 instructions.md
 
 .vscode
+
+package-lock.json
