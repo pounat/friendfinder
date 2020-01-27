@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/97f2116e00.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Survey Questions</h1>
+        <hr>
+        <h2>About You</h2>
+        <form>
+            <div class="form-group">
+                <label for="userName">Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Link to Photo Image</label>
+                <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <!-- Start questions -->
+            <!-- ========================================== -->
+            <br>
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="Q1">
+                        <h3>Question 1</h3>
+                    </label>
+                    <br>
+                    <label for="Q1">Your mind is always buzzing with unexplored ideas and plans.</label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="Q1">
+                        <option selected>Select an option... </option>
+                        <option value="1">1 (Strongly disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly agree)</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">
+                        <h3>Question 2</h3>
+                    </label> <br>
+                    <label for="Q2">What is your favorite color</label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Select an option... </option>
+                        <option value="1">Green</option>
+                        <option value="2">Pink</option>
+                        <option value="3">Blue</option>
+                        <option value="4">Black</option>
+                        <option value="5">Red</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">
+                        <h3>Question 3</h3>
+                    </label> <br>
+                    <label for="Q3">What is your favorite music genre</label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Select an option... </option>
+                        <option value="1">Country</option>
+                        <option value="2">R&B</option>
+                        <option value="3">Pop</option>
+                        <option value="4">Rap</option>
+                        <option value="5">Alternative</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">
+                        <h3>Question 4</h3>
+                    </label> <br>
+                    <label for="Q4">Are you interested in politics</label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Select an option... </option>
+                        <option value="1">1 (Strongly disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly agree)</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">
+                        <h3>Question 5</h3>
+                    </label> <br>
+                    <label for="Q5">Are you religious</label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Select an option... </option>
+                        <option value="1">1 (Strongly disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly agree)</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">
+                        <h3>Question 6</h3>
+                    </label> <br>
+                    <label for="Q6">You find it easy to stay relaxed and focused even when there is some pressure.
+                    </label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Select an option... </option>
+                        <option value="1">1 (Strongly disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly agree)</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">
+                        <h3>Question 7</h3>
+                    </label> <br>
+                    <label for="Q7">You put your job first in your life</label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Select an option... </option>
+                        <option value="1">1 (Strongly disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly agree)</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">
+                        <h3>Question 8</h3>
+                    </label> <br>
+                    <label for="Q8">Are you married</label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Select an option... </option>
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">
+                        <h3>Question 9</h3>
+                    </label> <br>
+                    <label for="Q9">Your friends consider you a friendly person</label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Select an option... </option>
+                        <option value="1">1 (Strongly disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly agree)</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div class="form-row align-items-center">
+                <div class="col-auto my-1">
+                    <label for="inlineFormCustomSelect">
+                        <h3>Question 10</h3>
+                    </label> <br>
+                    <label for="Q10">Would you consider yourself a friendly person</label>
+                    <br>
+                    <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                        <option selected>Select an option... </option>
+                        <option value="1">1 (Strongly disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly agree)</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- submit button -->
+            <br>
+            <button type="button" class="btn btn-primary btn-lg btn-block"><span
+                    class="glyphicon glyphicon-ok-sign"></span> Submit</button>
+            <!-- end of form -->
+        </form>
+        <br>
+        <footer>
+            <a href="#">API Friends List</a> | <a href="#">GitHub Repo</a>
+        </footer>
+        <br>
+    </div>
+</body>
+
+</html>
